@@ -4,7 +4,7 @@ A very rudimentary ORM that currently supports very few operations that are not 
 
 Activation feature is called `orm`.
 
-```rust
+```ignore,rust,edition2021
 use wtx::database::{
   orm::{Crud, FromSuffixRslt, NoTableAssociation, Table, TableField, TableParams},
   Database, FromRecords, Record, TableSuffix,

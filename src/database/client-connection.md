@@ -5,9 +5,9 @@ PostgreSQL is currently the only supported database and more SQL or NoSQL varian
 
 Activation feature is called `postgres`.
 
-![PostgreSQL Benchmark](https://i.imgur.com/UNbwWmA.jpg)
+![PostgreSQL Benchmark](https://i.imgur.com/vf2tYxY.jpg)
 
-```rust
+```ignore,rust,edition2021
 use core::borrow::BorrowMut;
 use wtx::{
   database::{client::postgres::{Executor, ExecutorBuffer}, Executor as _, Record, Records},
