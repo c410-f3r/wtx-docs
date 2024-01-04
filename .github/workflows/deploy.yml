@@ -22,7 +22,7 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
-      - name: Build Book
+      - name: Test and Build Book
         run: |
           mdbook test && mdbook build
       - name: Setup Pages
